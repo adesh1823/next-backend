@@ -38,5 +38,7 @@ const handler = NextAuth({providers: [
   })
 ]
 })
+console.log("hello");
+
 export const GET=handler ; 
 export const POST=handler ; 
